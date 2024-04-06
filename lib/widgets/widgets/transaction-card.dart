@@ -2,7 +2,7 @@ import 'package:artifex/styling.dart';
 import 'package:flutter/material.dart';
 
 // Home Page
-class RecentTransaction extends StatelessWidget {
+class Transaction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

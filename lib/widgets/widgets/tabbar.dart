@@ -1,8 +1,8 @@
 import 'package:artifex/styling.dart';
-import 'package:artifex/widgets/gallery/gallery.dart';
-import 'package:artifex/widgets/home/home.dart';
-import 'package:artifex/widgets/market/market.dart';
-import 'package:artifex/widgets/profile/profile.dart';
+import 'package:artifex/widgets/pages/gallery.dart';
+import 'package:artifex/widgets/pages/home.dart';
+import 'package:artifex/widgets/pages/market.dart';
+import 'package:artifex/widgets/pages/profile.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottomTabBar extends StatelessWidget {

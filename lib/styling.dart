@@ -9,6 +9,10 @@ class AppStyles {
   static const TextStyle header1 =
       TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold);
 
+  // Large Text Style
+  static const TextStyle largeText =
+  TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold);
+
   // Paragraph Style
   static const TextStyle paragraph = TextStyle(
       color: Colors.white, fontSize: 14, fontWeight: FontWeight.normal);

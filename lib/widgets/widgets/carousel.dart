@@ -1,4 +1,5 @@
 import 'package:artifex/styling.dart';
+import 'package:artifex/widgets/pages/news.dart';
 import 'package:flutter/material.dart';
 
 class Carousel extends StatefulWidget {
@@ -70,7 +71,12 @@ class _CarouselState extends State<Carousel> {
             value = _pageController.page! - index;
             value = (1 - (value.abs() * .25)).clamp(0.8, 1.0);
           }
-          return Container(
+          return InkWell( 
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => News(item['text']!, item['image']!)));
+            },
+            child: Container(
             margin: EdgeInsets.symmetric(horizontal: 8),
             child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -89,7 +95,7 @@ class _CarouselState extends State<Carousel> {
               SizedBox(height: 16),
               Text(item['text']!, style: AppStyles.header1),
             ],
-          ));
+          )));
         });
   }
 

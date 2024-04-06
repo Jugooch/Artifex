@@ -1,6 +1,6 @@
 import 'package:artifex/styling.dart';
-import 'package:artifex/widgets/home/home.dart';
-import 'package:artifex/widgets/login/signup.dart';
+import 'package:artifex/widgets/pages/home.dart';
+import 'package:artifex/widgets/pages/signup.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(32),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween, // This distributes space evenly between and around the children.
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               // Top Section
               Column(children: [

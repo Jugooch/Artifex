@@ -1,7 +1,7 @@
 import 'package:artifex/styling.dart';
-import 'package:artifex/widgets/home/widgets/recent-transaction-card.dart';
-import 'package:artifex/widgets/shared/carousel.dart';
-import 'package:artifex/widgets/shared/tabbar.dart';
+import 'package:artifex/widgets/widgets/transaction-card.dart';
+import 'package:artifex/widgets/widgets/carousel.dart';
+import 'package:artifex/widgets/widgets/tabbar.dart';
 import 'package:flutter/material.dart';
 
 // Home Page
@@ -90,11 +90,11 @@ class HomePage extends StatelessWidget {
             padding: EdgeInsets.only(left: 32, right: 32, bottom: 32),
             child: Column(
               children: [
-                RecentTransaction(),
+                Transaction(),
                 SizedBox(height: 16),
-                RecentTransaction(),
+                Transaction(),
                 SizedBox(height: 16),
-                RecentTransaction(),
+                Transaction(),
               ],
             ))
       ])),
